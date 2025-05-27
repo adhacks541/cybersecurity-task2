@@ -1,0 +1,56 @@
+# Phishing Email Analysis Report
+
+## 📧 Sample Email
+
+From: support@paypa1.com
+Subject: Urgent: Your PayPal account is on hold!
+
+Dear user,
+
+We noticed unusual activity in your PayPal account. For your security, your account has been temporarily locked.
+
+Please verify your account immediately to avoid permanent suspension.
+
+Click here to verify: http://secure-paypa1.com/login
+
+Thank you for using PayPal.
+
+Sincerely,
+PayPal Security Team
+
+
+---
+
+## 🔍 Phishing Indicators Found
+
+1. **Spoofed Sender Address**  
+   - Email is from `support@paypa1.com` instead of `support@paypal.com` (note the "1" instead of "l").
+
+2. **Urgent / Threatening Language**  
+   - Phrases like *"urgent"*, *"temporarily locked"*, and *"avoid permanent suspension"* pressure the user to act quickly.
+
+3. **Suspicious Link**  
+   - The link text says "Click here to verify" but the real link points to `http://secure-paypa1.com/login`, a fake domain.
+
+4. **Grammar/Spelling**  
+   - Phrasing is awkward (e.g., "Thank you for using PayPal" instead of something more formal or personalized).
+
+5. **No Personalization**  
+   - Legitimate companies usually include your name or account info, not a generic "Dear user".
+
+6. **Fake Domain Name**  
+   - The domain `secure-paypa1.com` closely mimics PayPal but is not authentic.
+
+---
+
+## 🔧 Tools Used
+
+- [MXToolbox Email Header Analyzer](https://mxtoolbox.com/EmailHeaders.aspx)
+- [VirusTotal](https://www.virustotal.com/)
+- Manual inspection of sender, links, grammar, and tone
+
+---
+
+## ✅ Conclusion
+
+The email exhibits multiple characteristics of phishing, including a spoofed email address, fake domain, urgent language, and suspicious links. This is a textbook phishing attempt designed to trick the user into revealing login credentials.
