@@ -1,0 +1,15 @@
+From: support@paypa1.com
+Subject: Urgent: Your PayPal account is on hold!
+
+Dear user,
+
+We noticed unusual activity in your PayPal account. For your security, your account has been temporarily locked.
+
+Please verify your account immediately to avoid permanent suspension.
+
+Click here to verify: http://secure-paypa1.com/login
+
+Thank you for using PayPal.
+
+Sincerely,
+PayPal Security Team
